@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+body {
+    background-color: #E6D690;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #b03107;
+}
+
+h1 {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 5vw;
+    text-shadow: 2px 2px 5px #000;
+}
+
+h2 {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 3vw;
+    text-shadow: 2px 2px 5px #000;
+}
+
+button {
+    padding: 3% 4%;
+    font-family: "Cedarville Cursive", serif;
+    font-size: 4vw;
+    border-radius: 15%;
+    background-color: #b03107;
+    color: gold;
+    border: 5px solid;
+    transition: ease-out 300ms;
+    text-shadow: 2px 2px 5px #000;
+}
+
+button:hover {
+    font-size: 5vw;
+}
